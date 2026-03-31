@@ -1,0 +1,6 @@
+@echo off
+echo Starting Backend Server...
+start cmd /k "cd backend && npm start"
+echo Starting Frontend Development Environment...
+start cmd /k "cd frontend && npm run dev"
+echo Both servers have been started in separate windows.
